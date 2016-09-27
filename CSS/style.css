@@ -1,70 +1,150 @@
 /* CSS Document*/
 
+.container {
+    margin-top: 5%;
+    height: 100%;
+}
+
+
+/*Booth-logo sizing*/
+
+.header-img {
+    top:0;
+    left:0;
+    right:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.booth-logo {
+    display: block;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 /* Custom styling to navbar
 ----------------------------------*/
-.navbar-wrapper {
-    position: absolute;
-    top:0;
-    right:0;
-    left:0;
-    z-index:20;
+
+ul li {
+   
+    display: inline;
 }
 
-.navbar-wrapper > .container {
-    padding-right:0;
-    padding-left: 0;
+a {
+    color:#a5aaae;
+    text-transform:uppercase;
+    font-size: 10px;
+    font-weight:bold;
 }
 
-.navbar-wrapper .navbar {
-    padding-right:15px;
-    padding-left:15px;
+.nav-container {
+    margin-bottom: 10px;
 }
 
-.navbar-wrapper .navbar .container {
-    width:auto;
+.form-inline > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.form-inline {
+    text-align: center;
+    vertical-align: top;
+}
+/* Header Divder
+----------------------------------*/
+.header-div{
+    margin:auto;
+    background-color: #8e9396;
+    
+}
+.program-name {
+    color:white;
+    text-transform:uppercase;
+    text-align: center;
+    font-weight:bold;
+    font-size: 10px;
+    padding: 5px;
+    left: auto;
+    right:auto;
+}
+
+/* Media
+----------------------------------*/
+
+.jumbotron {
+    color:#7f8284;
+    height: 600px;
+}
+
+.content{
+    padding:20px;
+    margin:5;
+}
+.main-story {
+    /*font-family:TradeGothicLTStd;*/
+    text-transform:uppercase;
+    text-align: center;
+    
+}
+.paragraph {
+    text-align: center;
+    font-size:10px;
     
 }
 
-.navbar-wrapper ul {
-   position: relative;
-   display: block;
+.button {
+    color:white;
+    
 }
-.right-inner-addon {
+
+
+
+/* footer
+----------------------------------*/
+
+.footer {
     position: relative;
-    top:10px;
-    right:8px;
-    height:3px;
-}
-
-.right-inner-addon input {
-    padding-right:30px;
-}
-
-.right-inner-addon i {
-    position: absolute;
-    right:0px;
-    padding: 10px 12px;
-    pointer-events: none;
+    margin:0 auto;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
 }
 
 /* Responsive CSS
 ----------------------------------*/
-@media (min-width:768px) {
-    .navbar-wrapper {
-        margin-top: 20px;
+@media (max-width:768px) {
+    
+    .booth-logo {
+        height:50px;
     }
     
-    .navbar-wrapper .container {
-        padding-right: 15px;
-        padding-left: 15px;
+    /*.form-inline {*/
+    /*    font-size:50%;*/
+    /*}*/
+    
+    a {
+        font-size-adjust: 5px;
     }
     
-    .navbar-wrapper .navbar {
-        padding-right: 0;
-        padding-left: 0;
+    .footer {
+        font-size:10px;
     }
     
-    .navbar-wrapper .navbar {
-        border-radius: 4px;
+    .main-story {
+        font-size-adjust: inherit;
     }
+}
+
+@font-face {
+    font-family: TradeGothicLTStd-Bd2;
+    src: url("./assests/other/TradeGothicLTStd-Bd2.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TradeGothicLTStd-Bd2;
+    font-weight: bold;
+    src: url("./assests/other/TradeGothicLTStd-Bd2.otf") format("opentype");
 }
