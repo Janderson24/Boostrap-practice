@@ -1,9 +1,6 @@
 /* CSS Document*/
 
-.container {
-    margin-top: 5%;
-    height: 100%;
-}
+
 
 
 /*Booth-logo sizing*/
@@ -25,32 +22,28 @@
 /* Custom styling to navbar
 ----------------------------------*/
 
-ul li {
-
-    display: inline;
-}
-
-a {
-    color:#a5aaae;
-    text-transform:uppercase;
-    font-size: 10px;
-    font-weight:bold;
+li {
+    text-transform: uppercase;
+    color:#7f8284;
 }
 
 .nav-container {
     margin-bottom: 10px;
     text-align: center;
+     color:#7f8284;
 }
 
 
 .nav {
     text-align: center;
     vertical-align: top;
+    display: inline-block;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 10px;
 }
 
-.btn {
-    color:white;
-}
+
 /* Header Divder
 ----------------------------------*/
 .header-div{
@@ -69,6 +62,7 @@ a {
     right:auto;
 }
 
+
 /* Media
 ----------------------------------*/
 
@@ -81,20 +75,16 @@ a {
     margin:5;
 }
 .main-story {
-    /*font-family:TradeGothicLTStd;*/
+    font-size: 27.04px;
     text-transform:uppercase;
     text-align: center;
     color:#7f8284;
 }
+
 .paragraph {
     text-align: center;
     font-size:10px;
     color:#7f8284;
-}
-
-.button {
-    color:white;
-    /*background-color:#fff;*/
 }
 
 h4 {
@@ -107,8 +97,16 @@ p {
     font-size:10px;
     color:#7f8284;
 }
+
+.row {
+    margin-top: 5%;
+}
+
 /* footer
 ----------------------------------*/
+.text-muted {
+    padding-top:5px;
+}
 
 .footer {
     position: relative;
@@ -119,6 +117,7 @@ p {
     text-align: center;
 }
 
+
 /* Responsive CSS
 ----------------------------------*/
 @media (max-width:768px) {
@@ -126,10 +125,6 @@ p {
     .booth-logo {
         height:50px;
     }
-    
-    /*.form-inline {*/
-    /*    font-size:50%;*/
-    /*}*/
     
     a {
         font-size-adjust: 5px;
@@ -142,7 +137,25 @@ p {
     .main-story {
         font-size-adjust: inherit;
     }
+    
+    .nav {
+        font-size-adjust: 15px;
+    }
+    
+    .no-overflow {
+        position:absolute;
+        top:0;
+        left:0;
+        display: block;
+        white-space: nowrap;
+        overflow: auto;
+        margin-top: 0;
+        max-width:100%;
+    }
+
 }
+
+
 
 @font-face {
     font-family: TradeGothicLTStd-Bd2;

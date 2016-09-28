@@ -24,14 +24,16 @@
         <!-- Custom style for this site -->
         <link rel="stylesheet" href="CSS/style.css" />
         
+        <script src="js/css3-mediaqueries.js"></script>
         
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+
         
     </head>
-    <body>
+    <body class="panel panel-default">
         
-        <div class="container-fluid">
-            <div class="panel panel-default">
-                <div class="panel-body">
+        <div class="panel-body">
         <!-- HEADER IMG ================================================================== -->
             <div class="header-img">
                 <a href="http://www.chicagobooth.edu">
@@ -41,6 +43,7 @@
         <!-- END OF HEADER IMG =========================================================== -->
         
         <!-- NAVBAR ====================================================================== -->
+       
         <div class="nav-container">
             <ul class="nav nav-pills" role="navigation" display="">
                     
@@ -53,6 +56,7 @@
                                      </li>                    
             </ul>
         </div>
+        
         <!-- END OF NAVBAR =============================================================== -->
         
         <!-- HEADER DIV ================================================================== -->
@@ -66,13 +70,14 @@
         <!-- MAIN STORY ================================================================== -->
             <div class="jumbotron">
                 <div class="row">
-                    <div class="col-xs-6 col-xs-offset-6">
-                        <div class="content">
+                    
+                    <div class="col-sm-4 col-sm-offset-7">
+                        <div class="panel-body text-center">
                             <h2 class="main-story">Main Story Title Goes Here</h2>
                             <p class="paragraph">Mauris commodo aliquam metus, quis fermentum arcu iaculis vel.
                                 Phasellus nec leo ac sapien venenatis scelerisque. Nulla facilisi. Morbi ac 
                                 tortor nec neque interdum hendrerit a et dolor. </p>
-                            <button type="button" class="btn">
+                            <button class="btn btn-default" type="button"  color="white">
                                 <a href="#">Call To Action Here</a>
                             </button>
                         </div>
@@ -82,48 +87,42 @@
         <!-- END OF MAIN STORY ============================================================ -->
             <hr>
         <!-- FEATURETTES ================================================================== -->
-            <!--<div class="container-fluid">-->
-            <!--    <div class="row">-->
-            <!--        <div class="col-xs-6">-->
-            <!--            <div class="jumbotron 1"></div>-->
-            <!--        </div>-->
-            <!--        <div class="col-xs-6">-->
-            <!--            <div class="jumbotron 2"></div>-->
-            <!--        </div>-->
-            <!--    </div>-->
-            <!--</div>-->
-            <div class= "container feature">
+            
+           
                 <div class="row">
                     
                     <div class="col-lg-6">
                          <div class="jumbotron"></div>
+                         <div class="panel-body text-center">
                           <h4>Title Goes here</h4>
                             <p class="paragraph">Mauris commodo aliquam metus, quis fermentum arcu iaculis vel.
                             Phasellus nec leo ac sapien venenatis scelerisque. Nulla facilisi. Morbi ac 
                             tortor nec neque interdum hendrerit a et dolor. </p>
-                            <button type="button" class="btn">
+                            <button type="button" class="btn btn-info">
                                 <a href="#">Call To Action Here</a>
                             </button>
+                        </div>
                     </div>
-                    
-                    
                     
                     <div class="col-lg-6">
                          <div class="jumbotron"></div>
+                         
+                         <div class="panel-body text-center">
                              <h4>Title Goes here</h4>
                                 <p class="paragraph">Mauris commodo aliquam metus, quis fermentum arcu iaculis vel.
                                 Phasellus nec leo ac sapien venenatis scelerisque. Nulla facilisi. Morbi ac 
                                 tortor nec neque interdum hendrerit a et dolor. </p>
-                                <button type="button" class="btn">
+                                <button type="button" class="btn btn-info">
                                     <a href="#">Call To Action Here</a>
-                                </button>
+                               </button>
+                               </div>
                     </div>
                
                 </div>
-            </div>
+           
+            
         <!-- END OF FEATURETTES =========================================================== -->
-          <hr>
-        
+           <hr>
         <!-- SOCIAL MEDIA ================================================================ -->
              <footer class="footer">
                  <h5 class="text-muted">Connect With Us</h5>
@@ -150,10 +149,7 @@
                      </div>
             </footer>         
         <!-- END OF SOCIAL MEDIA ========================================================= -->
-        
-               </div> <!--END OF PANEL BODY-->
-            </div> <!--END OF PANEL DEFAULT-->
-        </div> <!--END OF Container-->
+            <hr>
         <!-- FOOTER ====================================================================== -->
             <footer class="footer">
                 <div class="container">
@@ -164,5 +160,6 @@
                 </div>
             </footer>
         <!-- END OF FOOTER =============================================================== -->
+        
     </body>
 </html>
