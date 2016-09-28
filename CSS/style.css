@@ -12,8 +12,6 @@
     top:0;
     left:0;
     right:0;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-bottom: 10px;
 }
 
@@ -28,7 +26,7 @@
 ----------------------------------*/
 
 ul li {
-   
+
     display: inline;
 }
 
@@ -41,16 +39,17 @@ a {
 
 .nav-container {
     margin-bottom: 10px;
+    text-align: center;
 }
 
-.form-inline > li{
-  padding-left:30px;
-  padding-right:30px;
-}
 
-.form-inline {
+.nav {
     text-align: center;
     vertical-align: top;
+}
+
+.btn {
+    color:white;
 }
 /* Header Divder
 ----------------------------------*/
@@ -74,7 +73,6 @@ a {
 ----------------------------------*/
 
 .jumbotron {
-    color:#7f8284;
     height: 600px;
 }
 
@@ -86,21 +84,29 @@ a {
     /*font-family:TradeGothicLTStd;*/
     text-transform:uppercase;
     text-align: center;
-    
+    color:#7f8284;
 }
 .paragraph {
     text-align: center;
     font-size:10px;
-    
+    color:#7f8284;
 }
 
 .button {
     color:white;
-    
+    /*background-color:#fff;*/
 }
 
+h4 {
+    text-align: center;
+    color:#7f8284;
+}
 
-
+p {
+    text-align: center;
+    font-size:10px;
+    color:#7f8284;
+}
 /* footer
 ----------------------------------*/
 
